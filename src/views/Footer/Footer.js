@@ -2,7 +2,7 @@ import './Footer.css';
 
 export default function Footer() {
   return (
-    <div>
+    <div className='footer-container'>
       <a href="https://github.com/Jmart5564">
         <img className='logo' src={`${process.env.PUBLIC_URL}/images/githublogo.png`}></img>
       </a>

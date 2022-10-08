@@ -1,0 +1,22 @@
+.header-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+    background-color: rgba(0, 0, 0, 0.336);
+}
+
+.header-container a:link {
+  text-decoration: none;
+}
+
+.header-container a:visited {
+  color: black;
+}
+
+.header-container a.active {
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: 500;
+}
