@@ -5,7 +5,6 @@ import Footer from './views/Footer/Footer';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import Connect from './views/Connect/Connect';
 import Projects from './views/Projects/Projects';
-import Resume from './views/Resume/Resume';
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
       <Header />
       <Switch>
         <Route path="/home" component={Home} />
-        <Route path="/resume" component={Resume} />
         <Route path="/connect" component={Connect} />
         <Route path="/projects" component={Projects} />
         <Route exact path="/">
