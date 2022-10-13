@@ -1,14 +1,30 @@
-import './Footer.css';
+import styled from 'styled-components';
 
 export default function Footer() {
   return (
-    <div className='footer-container'>
+    <FooterDiv>
       <a href="https://github.com/Jmart5564">
         <img className='logo' src={`${process.env.PUBLIC_URL}/images/githublogo.png`}></img>
       </a>
       <a href="https://www.linkedin.com/in/jessica-martin5564/">
         <img className='logo' src={`${process.env.PUBLIC_URL}/images/linkedinlogo.png`}></img>
       </a>
-    </div>
+    </FooterDiv>
   );
 }
+
+const FooterDiv = styled.div`
+display: flex;
+justify-content: center;
+position:absolute;
+left:0;
+bottom:0;
+right:0;
+.logo {
+    height: 50px;
+    width: 50px;
+}
+a {
+  margin: 10px;
+}
+`;
