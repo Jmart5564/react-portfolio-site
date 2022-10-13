@@ -13,10 +13,10 @@ export default function Projects() {
         <a href="https://forte-ear-trainer.netlify.app/">Deployed Site</a>
       </ProjectDiv>
       <ProjectDiv>
-        <img src={`${process.env.PUBLIC_URL}/images/Forte.png`}></img>
+        <img src={`${process.env.PUBLIC_URL}/images/termagotchi.jpeg`}></img>
         <h1>Termagotchi</h1>
         <h3>Node.js, Express, Chalk, Inquirer</h3>
-        <p>Forte is an ear training app help make musical ear training fun and engaging</p>
+        <p>Termagotchi is a Tamagotchi inspired choose your own adventure terminal game</p>
         <a href="https://github.com/jenna-graham/Termagotchi">Github</a>
         <a href="https://www.npmjs.com/package/the-termagotchi">NPM Package Site</a>
       </ProjectDiv>
