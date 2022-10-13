@@ -18,7 +18,7 @@ background-color: rgba(0, 0, 0, 0.336);
 border-top: 1px solid black;
 display: flex;
 justify-content: center;
-position: absolute;
+position: fixed;
 left: 0;
 bottom: 0;
 right: 0;
