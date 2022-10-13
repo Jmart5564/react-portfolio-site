@@ -7,7 +7,7 @@ export default function Header() {
     <div className='header-container'>
       <NavLink to="/home">About</NavLink>
       <NavLink to="/projects">Projects</NavLink>
-      <NavLink to="/resume">Resume</NavLink>
+      <NavLink target={'_blank'} to={`${process.env.PUBLIC_URL}/resume.pdf`}>Resume</NavLink>
       <NavLink to="/connect">Connect</NavLink>
     </div>
   );
