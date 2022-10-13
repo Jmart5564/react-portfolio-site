@@ -21,7 +21,6 @@ export default function Connect() {
 
 
   return (
-   
     <StyledContactForm>
       <h1>Send me a message</h1>
       <form ref={form} onSubmit={sendEmail}>
