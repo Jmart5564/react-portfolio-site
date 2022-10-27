@@ -63,10 +63,12 @@ padding-bottom: 50px;
 const ProjectDiv = styled.div`
 background-color: grey;
 width: 600px;
+/* width: fit-content; */
 padding: 10px 0px;
 margin: 40px 20px;
 border-radius: 2%;
 align-self: center;
+/* display: flex; */
 img {
   height: 500px;
   width: 575px;
@@ -81,7 +83,6 @@ a:visited {
 p {
   width: 550px;
   margin-left: 25px;
-
 }
 `;
 
