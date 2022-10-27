@@ -1,16 +1,18 @@
 import styled from 'styled-components';
 
 export default function Footer() {
-  return (
-    <FooterDiv>
-      <a href="https://github.com/Jmart5564">
-        <img className='logo' src={`${process.env.PUBLIC_URL}/images/githublogo.png`}></img>
-      </a>
-      <a href="https://www.linkedin.com/in/jessica-martin5564/">
-        <img className='logo' src={`${process.env.PUBLIC_URL}/images/linkedinlogo.png`}></img>
-      </a>
-    </FooterDiv>
-  );
+
+  if (location.pathname !== '/')
+    return (
+      <FooterDiv>
+        <a href="https://github.com/Jmart5564">
+          <img className='logo' src={`${process.env.PUBLIC_URL}/images/githublogo.png`}></img>
+        </a>
+        <a href="https://www.linkedin.com/in/jessica-martin5564/">
+          <img className='logo' src={`${process.env.PUBLIC_URL}/images/linkedinlogo.png`}></img>
+        </a>
+      </FooterDiv>
+    );
 }
 
 const FooterDiv = styled.div`

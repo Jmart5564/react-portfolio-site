@@ -32,15 +32,20 @@ export default function Projects() {
         <h3>Node.js, Express, Chalk, Inquirer</h3>
         <p>Termagotchi is a Tamagotchi inspired choose your own adventure terminal game</p>
         <a href="https://github.com/jenna-graham/Termagotchi">Github</a>
-        <a href="https://www.npmjs.com/package/the-termagotchi">NPM Package Site</a>
+        <a href="https://www.npmjs.com/package/the-termagotchi">NPM Site</a>
       </ProjectDiv>
       <ProjectDiv>
         <img src={`${process.env.PUBLIC_URL}/images/sound-palette1.png`}></img>
         <h1>Sound Palette</h1>
-        <h3>React, React-Three-Fiber, React-Piano</h3>
-        <p>Termagotchi is a Tamagotchi inspired choose your own adventure terminal game</p>
-        <a href="https://github.com/ryanjeffrey/sound-palette">Github</a>
-        <a href="https://sound-palette.netlify.app/">Deployed Site</a>
+        <h3>React, React-Three-Fiber, React-Piano, Joyride</h3>
+        <p>Create your own palette of sound with this interactive 3D music app. 
+          Users can select from a variety of instrument 
+          sounds and render colors and gradients based on 
+          what notes are struck on a virtual piano keyboard. 
+          Uses React Three Fiber for 3D objects, React Piano for 
+          midi keyboard, and Soundfont for audio library.</p>
+        <a href="https://github.com/ryanjeffrey/sound-palette" target="_blank" rel="noreferrer noopener">Github</a>
+        <a href="https://sound-palette.netlify.app/" target="_blank" rel="noreferrer noopener">Deployed Site</a>
       </ProjectDiv>
       {/* </Slider> */}
     </ProjectsContainer>
@@ -51,7 +56,7 @@ const ProjectsContainer = styled.div`
 display: flex;
 flex-direction: column;
 align-content: center;
-padding-bottom: 40px;
+padding-bottom: 50px;
 `;
 
 
@@ -69,6 +74,14 @@ img {
 }
 a{
   padding: 0px 5px;
+}
+a:visited {
+  color: black;
+}
+p {
+  width: 550px;
+  margin-left: 25px;
+
 }
 `;
 
