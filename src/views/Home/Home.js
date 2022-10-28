@@ -1,5 +1,27 @@
+/* eslint-disable react/no-unknown-property */
 import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls, Text3D } from '@react-three/drei';
+import font1 from '../../fonts/font1.json';
+
+function HomeText() { 
+  return (
+    <mesh>
+      <Text3D
+        font={font1}>
+          HELLO WORLD
+        <meshNormalMaterial />
+      </Text3D>
+      <Text3D
+        font={font1}
+        position={[0, -2, -5]}>
+          Welcome to the void
+        <meshNormalMaterial />
+      </Text3D>
+    </mesh>
+  );
+}
 
 
 export default function Home() {
@@ -13,8 +35,11 @@ export default function Home() {
 
   return (
     <HomeContainer>
-      <h1>This is Home, Add cool shit here</h1>
-      <p>Checkout my site {' '}
+      <Canvas>
+        <HomeText />
+        <OrbitControls />
+      </Canvas>
+      <p>To enter, click {' '}
         <NavLink to="/about" onClick={reload}>here</NavLink>
       </p>
     </HomeContainer>
