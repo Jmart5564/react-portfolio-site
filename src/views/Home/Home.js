@@ -19,8 +19,8 @@ function HomeText() {
         <meshNormalMaterial />
       </Text3D>
       <Sparkles 
-        size={3}
-        count={100}
+        size={5}
+        count={150}
         scale={[20, 20, 10]}
         position={[0, 0, 0]}
         color="#d9cafc"/>

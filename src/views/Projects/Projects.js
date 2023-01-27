@@ -19,20 +19,17 @@ export default function Projects() {
     <ProjectsContainer>
       {/* <Slider {...settings}> */}
       <ProjectDiv>
-        <img src={`${process.env.PUBLIC_URL}/images/Forte.png`}></img>
-        <h1>Forte</h1>
-        <h3>Javascript, CSS3, HTML5, Tone.js</h3>
-        <p>Forte is an ear training app help make musical ear training fun and engaging</p>
-        <a href="https://github.com/forte-group/forte">Github</a>
-        <a href="https://forte-ear-trainer.netlify.app/">Deployed Site</a>
-      </ProjectDiv>
-      <ProjectDiv>
-        <img src={`${process.env.PUBLIC_URL}/images/termagotchi.jpeg`}></img>
-        <h1>Termagotchi</h1>
-        <h3>Node.js, Express, Chalk, Inquirer</h3>
-        <p>Termagotchi is a Tamagotchi inspired choose your own adventure terminal game</p>
-        <a href="https://github.com/jenna-graham/Termagotchi">Github</a>
-        <a href="https://www.npmjs.com/package/the-termagotchi">NPM Site</a>
+        <img src={`${process.env.PUBLIC_URL}/images/Forager.png`}></img>
+        <h1>Forager Journal</h1>
+        <h3>React, React-Three-Fiber, React-Piano, Joyride</h3>
+        <p>Create your own palette of sound with this interactive 3D music app. 
+          Users can select from a variety of instrument 
+          sounds and render colors and gradients based on 
+          what notes are struck on a virtual piano keyboard. 
+          Uses React Three Fiber for 3D objects, React Piano for 
+          midi keyboard, and Soundfont for audio library.</p>
+        <a href="https://github.com/ryanjeffrey/sound-palette" target="_blank" rel="noreferrer noopener">Github</a>
+        <a href="https://forager-journal.netlify.app/" target="_blank" rel="noreferrer noopener">Deployed Site</a>
       </ProjectDiv>
       <ProjectDiv>
         <img src={`${process.env.PUBLIC_URL}/images/sound-palette1.png`}></img>
@@ -46,6 +43,22 @@ export default function Projects() {
           midi keyboard, and Soundfont for audio library.</p>
         <a href="https://github.com/ryanjeffrey/sound-palette" target="_blank" rel="noreferrer noopener">Github</a>
         <a href="https://sound-palette.netlify.app/" target="_blank" rel="noreferrer noopener">Deployed Site</a>
+      </ProjectDiv>
+      <ProjectDiv>
+        <img src={`${process.env.PUBLIC_URL}/images/Forte.png`}></img>
+        <h1>Forte</h1>
+        <h3>Javascript, CSS3, HTML5, Tone.js</h3>
+        <p>Forte is an ear training app to help make musical ear training fun and engaging</p>
+        <a href="https://github.com/forte-group/forte">Github</a>
+        <a href="https://forte-ear-trainer.netlify.app/">Deployed Site</a>
+      </ProjectDiv>
+      <ProjectDiv>
+        <img src={`${process.env.PUBLIC_URL}/images/termagotchi.jpeg`}></img>
+        <h1>Termagotchi</h1>
+        <h3>Node.js, Express, Chalk, Inquirer</h3>
+        <p>Termagotchi is a Tamagotchi inspired choose your own adventure terminal game</p>
+        <a href="https://github.com/jenna-graham/Termagotchi">Github</a>
+        <a href="https://www.npmjs.com/package/the-termagotchi">NPM Site</a>
       </ProjectDiv>
       {/* </Slider> */}
     </ProjectsContainer>
